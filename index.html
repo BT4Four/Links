@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BT4FOUR</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    min-height:100vh;
+    display:flex; align-items:center; justify-content:center;
+    font-family: Arial, sans-serif;
+    background-color:#121212;
+    color:#ffffff;
+    padding:20px;
+  }
+
+  .container {
+    text-align:center;
+    width:100%;
+    max-width:400px;
+  }
+
+  h1 {
+    font-size:1.4rem;
+    font-weight:600;
+    margin-bottom:24px;
+    letter-spacing:.5px;
+  }
+
+  .links { display:flex; flex-direction:column; }
+
+  .link-card {
+    display:flex;
+    align-items:center;
+    gap:12px;
+    background-color:#1e1e1e;
+    color:#ffffff;
+    padding:12px 20px;
+    margin:6px 0;
+    text-decoration:none;
+    border-radius:8px;
+    transition: background-color .3s;
+  }
+
+  .link-card:hover {
+    background-color:#333333;
+  }
+
+  .link-card svg {
+    width:22px;
+    height:22px;
+    flex-shrink:0;
+    fill:currentColor;
+    opacity:.9;
+  }
+
+  .info { display:flex; flex-direction:column; text-align:left; }
+  .name { font-size:.95rem; font-weight:500; }
+  .handle { font-size:.75rem; opacity:.6; margin-top:2px; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>BT4FOUR</h1>
+
+    <div class="links">
+
+      <a class="link-card" href="https://steamcommunity.com/id/BT4FOUR/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M12 0a12 12 0 0 0-12 11.6l6.4 2.7a3.4 3.4 0 0 1 1.9-.6h.2l2.9-4.2v-.1a4.5 4.5 0 1 1 4.5 4.5h-.1l-4.1 2.9v.2a3.4 3.4 0 0 1-6.7.9L0 16.1A12 12 0 1 0 12 0zm-4.7 18.2l-1.5-.6a2.6 2.6 0 0 0 4.7-1.1 2.6 2.6 0 0 0-3.7-2.4l1.5.6a1.9 1.9 0 0 1-1.5 3.5zM19 9.4a3 3 0 1 0-6 0 3 3 0 0 0 6 0zm-5.2 0a2.3 2.3 0 1 1 4.5 0 2.3 2.3 0 0 1-4.5 0z"/></svg>
+        <div class="info"><span class="name">Steam</span><span class="handle">BT4FOUR</span></div>
+      </a>
+
+      <a class="link-card" href="https://old.yummyani.me/users/id445899?tab=watch_now" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1 5.5l6 4.5-6 4.5z"/></svg>
+        <div class="info"><span class="name">YummyAnime аккаунт</span><span class="handle">id445899</span></div>
+      </a>
+
+      <a class="link-card" href="https://t.me/Nakazatoholic" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M9.8 15.6l-.4 4.4c.6 0 .9-.3 1.2-.6l2.9-2.7 6 4.4c1.1.6 1.9.3 2.2-1l4-18.7c.4-1.6-.6-2.2-1.6-1.8L1.2 9.6C-.4 10.2-.4 11.3 1 11.7l5.5 1.7L19.2 5.9c.6-.4 1.1-.2.7.2z"/></svg>
+        <div class="info"><span class="name">Telegram канал с артами Nakazato Takeshi</span><span class="handle">@Nakazatoholic</span></div>
+      </a>
+
+      <a class="link-card" href="https://youtube.com/@bt4four?si=5O0aSucxRVAaO57T" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4L15.8 12z"/></svg>
+        <div class="info"><span class="name">YouTube канал</span><span class="handle">@bt4four</span></div>
+      </a>
+
+      <a class="link-card" href="https://www.tiktok.com/@bt4four?_t=ZM-8zv7QcSr67M&_r=1" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M19.6 6.7a5.1 5.1 0 0 1-3-1V15a5.7 5.7 0 1 1-5.7-5.7c.3 0 .6 0 .9.1v2.9a2.8 2.8 0 1 0 2 2.7V0h2.9a5.1 5.1 0 0 0 5 4.7v2z"/></svg>
+        <div class="info"><span class="name">TikTok (основной ак)</span><span class="handle">@bt4four</span></div>
+      </a>
+
+      <a class="link-card" href="https://www.tiktok.com/@bi_sao?_r=1&_t=ZS-9A23rksDIW8" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M19.6 6.7a5.1 5.1 0 0 1-3-1V15a5.7 5.7 0 1 1-5.7-5.7c.3 0 .6 0 .9.1v2.9a2.8 2.8 0 1 0 2 2.7V0h2.9a5.1 5.1 0 0 0 5 4.7v2z"/></svg>
+        <div class="info"><span class="name">TikTok (щп)</span><span class="handle">@bi_sao</span></div>
+      </a>
+
+      <a class="link-card" href="https://www.twitch.tv/bt4four" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M4.3 1L1 4.3v15.4h4.3V23h3.4l3.4-3.4h4.3l6.6-6.6V1H4.3zM20 12l-3.4 3.4h-4.3L9 18.8V15.4H4.3V3.4H20V12zm-5.2-5.4v6h-2V6.6h2zm-5.1 0v6h-2V6.6h2z"/></svg>
+        <div class="info"><span class="name">Twitch</span><span class="handle">@bt4four</span></div>
+      </a>
+
+      <a class="link-card" href="https://twitter.com/bt4four" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M18.9 2H22l-7 8 8.2 12h-6.4l-5-7.3L6 22H2.9l7.5-8.6L2.4 2h6.6l4.5 6.6zM17.8 20.1h1.7L7.3 3.8H5.5z"/></svg>
+        <div class="info"><span class="name">Twitter / X</span><span class="handle">@bt4four</span></div>
+      </a>
+
+    </div>
+  </div>
+</body>
+</html>
